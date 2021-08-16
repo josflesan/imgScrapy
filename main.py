@@ -9,12 +9,14 @@ from imgScrap import GoogleImgScrapy
 
 DRIVER_PATH = './webdriver/chromedriver.exe'
 IMG_PATH = 'C:/Users/josue/Documents/Programming/projects/imgScrapy/img'
-QUERIES = ['the weeknd']
+QUERIES = ['kanye']
 
 
 def main():
     goog_scraper = GoogleImgScrapy(DRIVER_PATH)
-    goog_scraper.scrape_images(QUERIES, 'C:/Users/josue/Documents/Programming/projects/imgScrapy/img', 10)
+
+    # Maximum of 15 images per query for optimum performance
+    goog_scraper.scrape_images(QUERIES, 'C:/Users/josue/Documents/Programming/projects/imgScrapy/img', 15)
 
 
 if __name__ == "__main__":
