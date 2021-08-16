@@ -1,5 +1,5 @@
 """
-Main Program to run image scraper
+Main Program to run image scraper on Google Images
 Implementation based on tutorial @ https://rubikscode.net/2021/06/21/scraping-images-with-python/
 
 @author josflesan (github.com/josflesan)
